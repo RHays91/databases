@@ -5,7 +5,7 @@ USE chat;
 CREATE TABLE messages (
   /* Describe your table here.*/
   objectId INT NOT NULL auto_increment,
-  username VARCHAR(50),
+  userId INT,
   text TEXT,
   createdAt VARCHAR(50),
   roomname VARCHAR(50), 
